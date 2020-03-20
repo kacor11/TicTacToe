@@ -1,0 +1,14 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+.gamebox {
+    display:flex;
+    flex-wrap: wrap;
+    width: 240px;
+    height: 240px;
+}
+.boxDiv {
+    width:80px;
+    height: 80px;
+    border: 1px solid red;
+}
